@@ -23,7 +23,6 @@ namespace Tyuiu.ChirchenkoME.Sprint3.Task0.V25
             Console.WriteLine("*      i=1   ( 1+x^i )                                                    *");
             Console.WriteLine("* при x = 5                                                               *");
 
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
