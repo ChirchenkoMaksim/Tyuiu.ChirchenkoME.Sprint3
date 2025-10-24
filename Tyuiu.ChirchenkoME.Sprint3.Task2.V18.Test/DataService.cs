@@ -2,7 +2,7 @@
 namespace Tyuiu.ChirchenkoME.Sprint3.Task2.V18.Test
 {
     [TestClass]
-    public class DataServiceTest
+    public class MSTestSettings
     {
         [TestMethod]
         public void ValidGetMultiplySeries()
@@ -14,7 +14,7 @@ namespace Tyuiu.ChirchenkoME.Sprint3.Task2.V18.Test
             int stopValue = 14;
 
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
-            double wait = 0.000; // ← Подставь реальное значение после расчёта
+            double wait = 287.18; 
 
             Assert.AreEqual(wait, res, 0.001);
         }
