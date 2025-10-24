@@ -14,7 +14,6 @@ namespace Tyuiu.ChirchenkoME.Sprint3.Task0.V25.Lib
                 double term = Math.Pow(4.0 / denominator, i);
                 sum += term;
             }
-
             return Math.Round(sum, 3);
         }
     }
